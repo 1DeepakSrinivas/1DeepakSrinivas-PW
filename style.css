@@ -5,7 +5,9 @@
 }
 
 body {
-    margin: 125px;
+    margin-top: 120px;
+    margin-left: 125px;
+    margin-right: 125px;
     font-family: var(--font-family);
     font-weight: 400;
     font-style: normal;
@@ -16,12 +18,27 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.nav-bar{
-    position: sticky;
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+.nav-bar{;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    width: 50%;
+}
 
+.name-header{
+    padding-bottom: 30px;
+}
 h1{
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-family: var(--font-family);
     font-weight: 650;
     font-style: normal;
@@ -30,5 +47,12 @@ h1{
 h2 {
     font-family: var(--font-family);
     font-weight: 600;
+    font-style: normal;
+}
+h3 {
+    padding-top:12px;
+    padding bottom: 12px;
+    font-family: var(--font-family);
+    font-weight: 500;
     font-style: normal;
 }
