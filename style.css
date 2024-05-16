@@ -30,10 +30,10 @@ body {
 }
 
 footer{
-    margin-top: 75px;
-    display: flex;
+    padding-top: 25px;
+    display: block;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     
 }
 
@@ -58,6 +58,7 @@ h1{
 }
 
 h2 {
+    padding-top: 12px;
     font-family: var(--font-family);
     font-weight: 600;
     font-style: normal;
@@ -79,15 +80,29 @@ h3 {
     flex-wrap: wrap;
 }
 
+.abtme-link{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+
 .contact-me{
     display: flex;
     row-gap: 12px;
     flex-direction: column;
 }
 
-.abtme-link{
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    align-items: center;
+.h3-sub{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.fluttr-text{
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+    var(--font-color)
 }
