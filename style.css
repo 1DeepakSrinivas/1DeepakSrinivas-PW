@@ -129,3 +129,14 @@ h3 {
     width: 240px;
     padding: 0px;
 }
+
+.tech-stack{
+    display: flex;
+    flex-direction: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tech-icon{
+    color: #333;
+    width:48px;
+}
