@@ -45,6 +45,12 @@ footer{
     width: 50%;
 }
 
+.nav-bar a:link,
+.nav-bar a:visited {
+    color: var(--font-color);
+    text-decoration: underline;
+}
+
 .name-header{
     padding-bottom: 30px;
 }
@@ -104,5 +110,22 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal
-    var(--font-color)
+}
+.fluttr-text a:link,
+.fluttr-text a:visited{
+    color: #080808;;
+    text-decoration: underline;
+
+}
+
+.music-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    column-gap: 0px;
+}
+
+.music-ele{
+    width: 240px;
+    padding: 0px;
 }
