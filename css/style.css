@@ -131,6 +131,8 @@ h3 {
 }
 
 .tech-stack{
+    row-gap: 12px;
+    column-gap: 12px;
     display: flex;
     flex-direction: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -151,13 +153,13 @@ h3 {
 
     .nav-bar {
         width: 100%;
-        display: flex; /* Show menu */
+        display: flex;
         flex-direction: row;
-        justify-content: flex-start; /* Align items to the left */
+        justify-content: flex-start; 
         gap: 10px;
         position: relative;
-        background-color: transparent; /* Remove background fill */
-        padding: 10px 0; /* Remove padding to get rid of background fill */
+        background-color: transparent; 
+        padding: 10px 0; 
     }
 
     .nav-bar a {
@@ -179,13 +181,13 @@ h3 {
 
     .nav-bar {
         width: 100%;
-        display: flex; /* Show menu */
+        display: flex; 
         flex-direction: row;
-        justify-content: flex-start; /* Align items to the left */
+        justify-content: flex-start; 
         gap: 8px;
         position: relative;
-        background-color: transparent; /* Remove background fill */
-        padding: 10px 0; /* Remove padding to get rid of background fill */
+        background-color: transparent; 
+        padding: 10px 0; 
     }
 
     .nav-bar a {
@@ -193,6 +195,7 @@ h3 {
     }
 
     .tech-stack {
+        flex-wrap: wrap;
         grid-template-columns: 1fr;
     }
 }
