@@ -20,16 +20,14 @@ body {
     z-index: 1 ;
 }
 
-footer{
+footer {
     padding-top: 25px;
     display: block;
     justify-content: center;
     text-align: center;
-    
 }
 
-
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     gap: 14px;
@@ -42,11 +40,11 @@ footer{
     text-decoration: underline;
 }
 
-.name-header{
+.name-header {
     padding-bottom: 30px;
 }
 
-h1{
+h1 {
     padding-top: 12px;
     padding-bottom: 12px;
     font-family: var(--font-family);
@@ -62,7 +60,7 @@ h2 {
 }
 
 h3 {
-    padding-top:12px;
+    padding-top: 12px;
     padding-bottom: 12px;
     font-family: var(--font-family);
     font-weight: 500;
@@ -75,17 +73,18 @@ h3 {
     margin: 0 0 10px;
 }
 
-.proj-title{
+.proj-title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .project-desc {
     font-size: 16px;
     margin: 0 0 10px;
-    max-width: calc(100% - 60px);
+    max-width: 100%;
+    white-space: normal;
+    padding-right: 70px; 
 }
 
 .tech-icon {
@@ -94,7 +93,7 @@ h3 {
     margin-right: 5px;
 }
 
-.project-list{
+.project-list {
     display: flex;
     flex-direction: column;
 }
@@ -106,7 +105,7 @@ h3 {
     margin-top: -24px;
 }
 
-.project-ele{
+.project-ele {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -116,4 +115,79 @@ h3 {
     margin: 10px 0;
     border-radius: 8px;
     background-color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    body {
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+        gap: 10px;
+        position: relative;
+        background-color: transparent; 
+        padding: 10px 0; 
+    }
+
+    .nav-bar a {
+        margin: 0 10px;
+    }
+
+    .tech-stack {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: flex; 
+        flex-direction: row;
+        justify-content: flex-start; 
+        gap: 8px;
+        position: relative;
+        background-color: transparent; 
+        padding: 10px 0; 
+    }
+
+    .nav-bar a {
+        margin: 0 5px;
+    }
+
+    .tech-stack {
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        margin-top: 140px;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 18px;
+    }
+
+    .nav-bar {
+        width: 60%;
+    }
+
+    .tech-stack {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
