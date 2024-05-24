@@ -2,4 +2,7 @@ Things I'd like to implement after setting up the basic FUNCTIONING Webpage.
 1. particlejs background [done]
 2. setting up netlify CMS with React to help maintain the page better
 3. Add Services Offered Section and integrate mailing
-4. Add tech stack known in about 
+4. Add tech stack known in about [done]
+5. Add Live to each project if any 
+6. Get Rid of Particle JS and see if it works
+7. Work on text differentiation
