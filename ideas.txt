@@ -1,5 +1,0 @@
-Things I'd like to implement after setting up the basic FUNCTIONING Webpage.
-1. particlejs background [done]
-2. setting up netlify CMS with React to help maintain the page better
-3. Add Services Offered Section and integrate mailing
-4. Add tech stack known in about 
