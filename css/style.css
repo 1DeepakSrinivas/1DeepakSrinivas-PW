@@ -4,6 +4,10 @@
     --background-color:#f8f8f8;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 #particles-js {
     position: fixed;
     width: 100%;
@@ -34,7 +38,6 @@ footer{
     display: block;
     justify-content: center;
     text-align: center;
-    
 }
 
 
