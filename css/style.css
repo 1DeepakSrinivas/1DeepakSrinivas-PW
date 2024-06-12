@@ -189,6 +189,13 @@ h3 {
     .project-desc {
         padding-right: 50px;
     }
+
+    .abt-links{
+        font-size: 16px;
+        display: flex;
+        gap: 12px;
+        justify-content:flex-start;
+    }
 }
 
 @media (max-width: 768px) {
@@ -232,6 +239,13 @@ h3 {
         flex-direction: column;
         align-items: flex-start;
         margin-top: 10px;
+    }
+    
+    .abt-links{
+        font-size: 14px;
+        display: flex;
+        gap: 12px;
+        justify-content:flex-start;
     }
 }
 

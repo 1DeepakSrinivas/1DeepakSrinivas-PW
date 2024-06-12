@@ -89,6 +89,45 @@ h3 {
     flex-wrap: wrap;
 }
 
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.input-label{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.input-group{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+button{
+    margin-top: 14px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    background-color: #f8f8f8;
+    cursor: pointer;
+
+}
 
 @media (max-width: 1024px) {
     body {
@@ -124,6 +163,24 @@ h3 {
 
     .project-desc {
         padding-right: 50px;
+    }
+
+    .contact-form {
+        row-gap: 8px;
+    }
+
+    .input-group {
+        row-gap: 8px;
+    }
+
+    .input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
     }
 }
 
@@ -169,6 +226,24 @@ h3 {
         align-items: flex-start;
         margin-top: 10px;
     }
+
+    .contact-form {
+        row-gap: 6px;
+    }
+
+    .input-group {
+        row-gap: 6px;
+    }
+
+    .input {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -189,5 +264,23 @@ h3 {
 
     .project-desc {
         padding-right: 80px;
+    }
+
+    .contact-form {
+        row-gap: 16px;
+    }
+
+    .input-group {
+        row-gap: 16px;
+    }
+
+    .input {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    button {
+        padding: 14px;
+        font-size: 18px;
     }
 }
